@@ -1,9 +1,9 @@
 object Form1: TForm1
-  Left = 489
+  Left = 64
   Height = 240
-  Top = 233
+  Top = 436
   Width = 320
-  Caption = 'easyCalc V2.0'
+  Caption = 'easyCalc V2.1'
   ClientHeight = 240
   ClientWidth = 320
   LCLVersion = '1.6.2.0'
@@ -126,5 +126,12 @@ object Form1: TForm1
     OnClick = Button2Click
     TabOrder = 4
     Visible = False
+  end
+  object ProgressBar1: TProgressBar
+    Left = 32
+    Height = 22
+    Top = 9
+    Width = 249
+    TabOrder = 5
   end
 end
